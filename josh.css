@@ -235,11 +235,19 @@ a:hover {
     .namebanner{
         font-size: 7vw;
     }
-    }
-
-@media only screen and (max-width: 600px) {
     .navlink {
         font-size: 1.8vw;
+    }  
+    .hero {
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+    }  
+    .banner {
+        margin-top: 7vh;
+    }
+    .boldbanner {
+        margin-bottom: 7vh;
     }
     }
+
 
