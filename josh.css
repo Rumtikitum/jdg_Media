@@ -172,7 +172,7 @@ a:hover {
 }
 
 .subtext {
-    color: #CBB26A;
+    color: rgb(167, 167, 167);
     padding-top: 2vw;
     font-size: 2vw;
     background: transparent;
@@ -204,7 +204,7 @@ a:hover {
 
 .skill {
     background: transparent;
-    color: #CBB26A;
+    color: rgb(167, 167, 167);
     padding-top: 1vh;
     font-size: 2vw;
     padding-bottom: 1vh;
