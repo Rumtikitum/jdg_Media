@@ -231,6 +231,11 @@ a:hover {
     padding-bottom: 6vh;
 }
 
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
+
 @media only screen and (max-width: 600px) {
     .namebanner{
         font-size: 7vw;
