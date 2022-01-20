@@ -1,0 +1,237 @@
+*{
+    background-color: #CBB26A;
+    margin: 0;
+        font-family: 'Raleway', sans-serif;
+
+}
+.cursive {
+    font-family: 'Aguafina Script', cursive;
+    background-color: transparent;
+}
+
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.containerrow {
+    display: flex;
+    background-color: #CBB26A;
+}
+
+.namebanner{
+    flex: 1;
+    padding-left: 10vw;
+    font-size: 4vw;
+    color: #155263;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+.bannerlist {
+    flex: 1;
+    text-align: end; 
+    padding-right: 5vw;  
+    margin-top: auto;
+    margin-bottom: 2vh;
+    padding-left: 0;
+ 
+}
+
+.navlink {
+    flex: 1;
+    display: inline;
+    margin: 2vw;
+    font-size: 1.5vw;
+    color: #155263;
+}
+
+/*hero banner*/
+
+.hero {
+    background: linear-gradient(#155263, #000000, #000000, #155263);    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.banner {
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 2.5vw;
+    background-color: transparent;
+    color: whitesmoke;
+
+
+}
+
+.boldbanner {
+    text-align: center;
+    font-size: 8vw;
+    margin-bottom: 15vh;
+    background-color: transparent;
+    color: rgb(182, 182, 182);
+}
+
+/*star container*/
+.first {
+    padding-top: 14px
+}
+
+.constainerstar {
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #CBB26A;
+}
+
+.doublelines{
+    width: 45vw;
+    list-style: none;
+    text-align: center;
+    border-top: solid 3px #155263;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: solid 3px #155263;
+    height: .2vw;
+    padding: 0;
+}
+
+.doublelines{
+    width: 45vw;
+    list-style: none;
+    text-align: center;
+    border-top: solid 3px #155263;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: solid 3px #155263;
+    height: .2vw;
+    padding: 0;
+}
+
+.star {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    margin: 1px;
+    color: gray;
+}
+.righthand {
+    text-align: center;
+}
+
+/*video*/
+.title {
+    font-size: 5vw;
+    color: #155263;
+    background: transparent;
+
+}
+
+.video {
+    width: 80vw;
+    height: 45vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background: transparent;
+}
+
+.center {
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 0px;
+}
+
+.videoback {
+    background: linear-gradient(#CBB26A, #155263);
+}
+
+/*service*/
+.back {
+    background: linear-gradient(#155263, #000000);
+
+}
+
+.what {
+    padding-top: 2vh;
+    color: #CBB26A;
+    background: transparent;
+    font-size: 5vw;
+}
+
+.subtext {
+    color: #CBB26A;
+    padding-top: 2vw;
+    font-size: 2vw;
+    background: transparent;
+    padding-bottom: 2vw;
+}
+
+.videocontainer {
+    display: flex;
+    background: transparent;
+}
+
+.vid {
+    flex: 1;
+    padding: 1vw;
+    background: transparent;
+    width: 23.66vw;
+    height: 13.3125vw;
+}
+
+.skillset {
+    background: transparent;
+    display: flex;
+}
+
+.col1 {
+    background: transparent;
+    flex: 1;
+}
+
+.skill {
+    background: transparent;
+    color: #CBB26A;
+    padding-top: 1vh;
+    font-size: 2vw;
+    padding-bottom: 1vh;
+}
+
+/*contant*/
+
+.contact {
+    padding-top: 2vh;
+}
+
+.media {
+    background: none;
+    padding-left: 0px;
+    display: flex;
+    padding-top: 1vh;
+}
+
+.list {
+    list-style: none;
+    background: transparent;
+    flex: 1;
+    color: #CBB26A;
+    padding-bottom: 6vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .namebanner{
+        font-size: 7vw;
+    }
+    }
+
+@media only screen and (max-width: 600px) {
+    .navlink {
+        font-size: 1.8vw;
+    }
+    }
+
