@@ -47,6 +47,14 @@
     color: #155263;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 /*hero banner*/
 
 .hero {
